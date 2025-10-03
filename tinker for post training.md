@@ -1,7 +1,7 @@
 
 
-Thinking Labs which was founded by Mira Takur (ex- CTO of OpenAI),
-released a python package called [tinker](https://thinkingmachines.ai/blog/announcing-tinker/)
+Thinking Labs which was founded by Mira Murati (ex- CTO of OpenAI),
+released a managed service which be accessed by python package called [tinker](https://thinkingmachines.ai/blog/announcing-tinker/)
 
 In the pipeline of LLM training, testing, optimizing, serving;  my initial impressions from the announment is that this package is relevant to the "post-training" phase of LLM development & usage process.
 
@@ -20,7 +20,7 @@ Pre-training Phase :
                 input : The quick brown fox jumps .. 
                 model predicts : over the lazy dog
                 forming the final sentence  : The quick brown fox jumps over the lazy dog
-  example at gemini : https://g.co/gemini/share/0673d97c0917
+  example at [gemini prompt answer](https://g.co/gemini/share/0673d97c0917)
   
   the supposed theory is that with enough pre-training data corpus, the model with num of billions of params can scale well 
   and give raise to "emergent behavior", which means, it can perform reasonably well on tasks it is not been previously exposed. 
@@ -44,7 +44,9 @@ Post Training Phase :
 
   Additionally, there is a (tinker-cookbook) [https://github.com/thinking-machines-lab/tinker-cookbook] package (by Thinking Labs) which is 
   builds on top of tinker APIs and another layer of abstraction to work with the open source models.
-  
+
+  Interestingly, Google also released a python package called Tunix, for post training fine-tuning of LLMs, which is JAX based packaged.
+  Instruction video  : (How to fine-tune LLMs for with Tunix) [https://youtu.be/8essLqkBsX8?si=gvjbmp76R4dgILLJ]
   
 
   
