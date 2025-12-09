@@ -15,3 +15,13 @@ def intro_to_tokenization():
                 In this case, higher the number of vocab size, more the distinct pieces of information can be encoded into tokens.
                 this is a good trait of a LLM """
 
+
+def types_of_tokenization():
+  process = """ In the context of LLMs, there are multiple approches which be used for tokenization"""
+
+  varitions = """ 1. character tokenization
+                  2. word tokenization 
+                  3. byte tokenization
+                  4. byte pair encoding tokenization """
+                  
+
