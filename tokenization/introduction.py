@@ -1,6 +1,6 @@
 # author : Anand Vidvat Arza
 # create date : Dec, 07, 2025
-# last update date  : Dec, 08, 2025
+# last update date  : Dec, 09, 2025
 
 def intro_to_tokenization():
   process = """ Tokenization step in LLM training and inference process is a crutial first step towards model development.
@@ -22,6 +22,7 @@ def types_of_tokenization():
   varitions = """ 1. character tokenization
                   2. word tokenization 
                   3. byte tokenization
-                  4. byte pair encoding tokenization """
+                  4. byte pair encoding (BPE) tokenization
+                  """
                   
 
