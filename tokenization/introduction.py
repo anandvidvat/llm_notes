@@ -23,6 +23,7 @@ def types_of_tokenization():
                   2. word tokenization 
                   3. byte tokenization
                   4. byte pair encoding (BPE) tokenization
+                  5. Byte level BPE tokenization
                   """
                   
 
